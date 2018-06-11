@@ -15,6 +15,7 @@
 		D034E2FA20CA8FBA00E80D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D034E2F820CA8FBA00E80D68 /* LaunchScreen.storyboard */; };
 		D034E30320CA9D0400E80D68 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30120CA9D0400E80D68 /* Location+CoreDataClass.swift */; };
 		D034E30420CA9D0400E80D68 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30220CA9D0400E80D68 /* Location+CoreDataProperties.swift */; };
+		D034E30720CA9E1900E80D68 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		D034E2FB20CA8FBA00E80D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D034E30120CA9D0400E80D68 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D034E30220CA9D0400E80D68 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
+		D034E30820CAB28E00E80D68 /* WristyLocation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WristyLocation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 		D034E2EB20CA8FB700E80D68 /* WristyLocation */ = {
 			isa = PBXGroup;
 			children = (
+				D034E30820CAB28E00E80D68 /* WristyLocation.entitlements */,
 				D034E30520CA9D9000E80D68 /* models */,
 				D034E2EC20CA8FB700E80D68 /* AppDelegate.swift */,
 				D034E2EE20CA8FB700E80D68 /* ViewController.swift */,
+				D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */,
 				D034E2F020CA8FB700E80D68 /* Main.storyboard */,
 				D034E2F620CA8FBA00E80D68 /* Assets.xcassets */,
 				D034E2F820CA8FBA00E80D68 /* LaunchScreen.storyboard */,
@@ -113,6 +118,11 @@
 				TargetAttributes = {
 					D034E2E820CA8FB700E80D68 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -154,6 +164,7 @@
 			files = (
 				D034E30320CA9D0400E80D68 /* Location+CoreDataClass.swift in Sources */,
 				D034E2EF20CA8FB700E80D68 /* ViewController.swift in Sources */,
+				D034E30720CA9E1900E80D68 /* SwiftCoreDataHelper.swift in Sources */,
 				D034E2F520CA8FB700E80D68 /* WristyLocation.xcdatamodeld in Sources */,
 				D034E2ED20CA8FB700E80D68 /* AppDelegate.swift in Sources */,
 				D034E30420CA9D0400E80D68 /* Location+CoreDataProperties.swift in Sources */,
@@ -300,15 +311,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WristyLocation/WristyLocation.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LS934P2T3E;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
 				INFOPLIST_FILE = WristyLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.WristyLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,15 +332,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WristyLocation/WristyLocation.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LS934P2T3E;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
 				INFOPLIST_FILE = WristyLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.WristyLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
