@@ -10,13 +10,85 @@
 		D034E2ED20CA8FB700E80D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E2EC20CA8FB700E80D68 /* AppDelegate.swift */; };
 		D034E2EF20CA8FB700E80D68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E2EE20CA8FB700E80D68 /* ViewController.swift */; };
 		D034E2F220CA8FB700E80D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D034E2F020CA8FB700E80D68 /* Main.storyboard */; };
-		D034E2F520CA8FB700E80D68 /* WristyLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D034E2F320CA8FB700E80D68 /* WristyLocation.xcdatamodeld */; };
 		D034E2F720CA8FBA00E80D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D034E2F620CA8FBA00E80D68 /* Assets.xcassets */; };
 		D034E2FA20CA8FBA00E80D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D034E2F820CA8FBA00E80D68 /* LaunchScreen.storyboard */; };
-		D034E30320CA9D0400E80D68 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30120CA9D0400E80D68 /* Location+CoreDataClass.swift */; };
-		D034E30420CA9D0400E80D68 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30220CA9D0400E80D68 /* Location+CoreDataProperties.swift */; };
 		D034E30720CA9E1900E80D68 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */; };
+		D0816A6120CF0487005FEA21 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0816A5F20CF0487005FEA21 /* Interface.storyboard */; };
+		D0816A6320CF0489005FEA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0816A6220CF0489005FEA21 /* Assets.xcassets */; };
+		D0816A6A20CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D0816A6920CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0816A6F20CF0489005FEA21 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816A6E20CF0489005FEA21 /* InterfaceController.swift */; };
+		D0816A7120CF0489005FEA21 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0816A7020CF0489005FEA21 /* ExtensionDelegate.swift */; };
+		D0816A7320CF048A005FEA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0816A7220CF048A005FEA21 /* Assets.xcassets */; };
+		D0816A7720CF048A005FEA21 /* WristyLocation WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0816A5D20CF0487005FEA21 /* WristyLocation WatchKit App.app */; };
+		D0816A8920CF04F4005FEA21 /* WatchProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D0816A8720CF04F4005FEA21 /* WatchProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0816A8C20CF04F4005FEA21 /* WatchProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0816A8520CF04F4005FEA21 /* WatchProxy.framework */; };
+		D0816A8D20CF04F4005FEA21 /* WatchProxy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0816A8520CF04F4005FEA21 /* WatchProxy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0816A9220CF050B005FEA21 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */; };
+		D0816A9320CF050C005FEA21 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */; };
+		D0816A9420CF0522005FEA21 /* WristyLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D034E2F320CA8FB700E80D68 /* WristyLocation.xcdatamodeld */; };
+		D0816A9520CF052F005FEA21 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30120CA9D0400E80D68 /* Location+CoreDataClass.swift */; };
+		D0816A9620CF052F005FEA21 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E30220CA9D0400E80D68 /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0816A6B20CF0489005FEA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D034E2E120CA8FB700E80D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0816A6820CF0489005FEA21;
+			remoteInfo = "WristyLocation WatchKit App Extension";
+		};
+		D0816A7520CF048A005FEA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D034E2E120CA8FB700E80D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0816A5C20CF0487005FEA21;
+			remoteInfo = "WristyLocation WatchKit App";
+		};
+		D0816A8A20CF04F4005FEA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D034E2E120CA8FB700E80D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0816A8420CF04F4005FEA21;
+			remoteInfo = WatchProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0816A7D20CF048A005FEA21 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0816A6A20CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A7F20CF048A005FEA21 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D0816A7720CF048A005FEA21 /* WristyLocation WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A9120CF04F4005FEA21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D0816A8D20CF04F4005FEA21 /* WatchProxy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D034E2E920CA8FB700E80D68 /* WristyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,10 +103,38 @@
 		D034E30220CA9D0400E80D68 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D034E30620CA9E1900E80D68 /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
 		D034E30820CAB28E00E80D68 /* WristyLocation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WristyLocation.entitlements; sourceTree = "<group>"; };
+		D0816A5D20CF0487005FEA21 /* WristyLocation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristyLocation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0816A6020CF0487005FEA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D0816A6220CF0489005FEA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0816A6420CF0489005FEA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0816A6920CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WristyLocation WatchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0816A6E20CF0489005FEA21 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D0816A7020CF0489005FEA21 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D0816A7220CF048A005FEA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0816A7420CF048A005FEA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0816A8520CF04F4005FEA21 /* WatchProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0816A8720CF04F4005FEA21 /* WatchProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchProxy.h; sourceTree = "<group>"; };
+		D0816A8820CF04F4005FEA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0816A9720CF0560005FEA21 /* WristyLocation WatchKit App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WristyLocation WatchKit App Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D034E2E620CA8FB700E80D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A8C20CF04F4005FEA21 /* WatchProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A6620CF0489005FEA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A8120CF04F4005FEA21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				D034E2EB20CA8FB700E80D68 /* WristyLocation */,
+				D0816A5E20CF0487005FEA21 /* WristyLocation WatchKit App */,
+				D0816A6D20CF0489005FEA21 /* WristyLocation WatchKit App Extension */,
+				D0816A8620CF04F4005FEA21 /* WatchProxy */,
 				D034E2EA20CA8FB700E80D68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				D034E2E920CA8FB700E80D68 /* WristyLocation.app */,
+				D0816A5D20CF0487005FEA21 /* WristyLocation WatchKit App.app */,
+				D0816A6920CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex */,
+				D0816A8520CF04F4005FEA21 /* WatchProxy.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +192,49 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		D0816A5E20CF0487005FEA21 /* WristyLocation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D0816A5F20CF0487005FEA21 /* Interface.storyboard */,
+				D0816A6220CF0489005FEA21 /* Assets.xcassets */,
+				D0816A6420CF0489005FEA21 /* Info.plist */,
+			);
+			path = "WristyLocation WatchKit App";
+			sourceTree = "<group>";
+		};
+		D0816A6D20CF0489005FEA21 /* WristyLocation WatchKit App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0816A9720CF0560005FEA21 /* WristyLocation WatchKit App Extension.entitlements */,
+				D0816A6E20CF0489005FEA21 /* InterfaceController.swift */,
+				D0816A7020CF0489005FEA21 /* ExtensionDelegate.swift */,
+				D0816A7220CF048A005FEA21 /* Assets.xcassets */,
+				D0816A7420CF048A005FEA21 /* Info.plist */,
+			);
+			path = "WristyLocation WatchKit App Extension";
+			sourceTree = "<group>";
+		};
+		D0816A8620CF04F4005FEA21 /* WatchProxy */ = {
+			isa = PBXGroup;
+			children = (
+				D0816A8720CF04F4005FEA21 /* WatchProxy.h */,
+				D0816A8820CF04F4005FEA21 /* Info.plist */,
+			);
+			path = WatchProxy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0816A8220CF04F4005FEA21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A8920CF04F4005FEA21 /* WatchProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D034E2E820CA8FB700E80D68 /* WristyLocation */ = {
@@ -96,15 +244,71 @@
 				D034E2E520CA8FB700E80D68 /* Sources */,
 				D034E2E620CA8FB700E80D68 /* Frameworks */,
 				D034E2E720CA8FB700E80D68 /* Resources */,
+				D0816A7F20CF048A005FEA21 /* Embed Watch Content */,
+				D0816A9120CF04F4005FEA21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D0816A7620CF048A005FEA21 /* PBXTargetDependency */,
+				D0816A8B20CF04F4005FEA21 /* PBXTargetDependency */,
 			);
 			name = WristyLocation;
 			productName = WristyLocation;
 			productReference = D034E2E920CA8FB700E80D68 /* WristyLocation.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D0816A5C20CF0487005FEA21 /* WristyLocation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0816A7E20CF048A005FEA21 /* Build configuration list for PBXNativeTarget "WristyLocation WatchKit App" */;
+			buildPhases = (
+				D0816A5B20CF0487005FEA21 /* Resources */,
+				D0816A7D20CF048A005FEA21 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0816A6C20CF0489005FEA21 /* PBXTargetDependency */,
+			);
+			name = "WristyLocation WatchKit App";
+			productName = "WristyLocation WatchKit App";
+			productReference = D0816A5D20CF0487005FEA21 /* WristyLocation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D0816A6820CF0489005FEA21 /* WristyLocation WatchKit App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0816A7C20CF048A005FEA21 /* Build configuration list for PBXNativeTarget "WristyLocation WatchKit App Extension" */;
+			buildPhases = (
+				D0816A6520CF0489005FEA21 /* Sources */,
+				D0816A6620CF0489005FEA21 /* Frameworks */,
+				D0816A6720CF0489005FEA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WristyLocation WatchKit App Extension";
+			productName = "WristyLocation WatchKit App Extension";
+			productReference = D0816A6920CF0489005FEA21 /* WristyLocation WatchKit App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D0816A8420CF04F4005FEA21 /* WatchProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0816A8E20CF04F4005FEA21 /* Build configuration list for PBXNativeTarget "WatchProxy" */;
+			buildPhases = (
+				D0816A8020CF04F4005FEA21 /* Sources */,
+				D0816A8120CF04F4005FEA21 /* Frameworks */,
+				D0816A8220CF04F4005FEA21 /* Headers */,
+				D0816A8320CF04F4005FEA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchProxy;
+			productName = WatchProxy;
+			productReference = D0816A8520CF04F4005FEA21 /* WatchProxy.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -124,6 +328,20 @@
 							};
 						};
 					};
+					D0816A5C20CF0487005FEA21 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					D0816A6820CF0489005FEA21 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D0816A8420CF04F4005FEA21 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 				};
 			};
 			buildConfigurationList = D034E2E420CA8FB700E80D68 /* Build configuration list for PBXProject "WristyLocation" */;
@@ -140,6 +358,9 @@
 			projectRoot = "";
 			targets = (
 				D034E2E820CA8FB700E80D68 /* WristyLocation */,
+				D0816A5C20CF0487005FEA21 /* WristyLocation WatchKit App */,
+				D0816A6820CF0489005FEA21 /* WristyLocation WatchKit App Extension */,
+				D0816A8420CF04F4005FEA21 /* WatchProxy */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +376,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0816A5B20CF0487005FEA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A6320CF0489005FEA21 /* Assets.xcassets in Resources */,
+				D0816A6120CF0487005FEA21 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A6720CF0489005FEA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A7320CF048A005FEA21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A8320CF04F4005FEA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -162,16 +407,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D034E30320CA9D0400E80D68 /* Location+CoreDataClass.swift in Sources */,
 				D034E2EF20CA8FB700E80D68 /* ViewController.swift in Sources */,
 				D034E30720CA9E1900E80D68 /* SwiftCoreDataHelper.swift in Sources */,
-				D034E2F520CA8FB700E80D68 /* WristyLocation.xcdatamodeld in Sources */,
 				D034E2ED20CA8FB700E80D68 /* AppDelegate.swift in Sources */,
-				D034E30420CA9D0400E80D68 /* Location+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A6520CF0489005FEA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A7120CF0489005FEA21 /* ExtensionDelegate.swift in Sources */,
+				D0816A6F20CF0489005FEA21 /* InterfaceController.swift in Sources */,
+				D0816A9220CF050B005FEA21 /* SwiftCoreDataHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0816A8020CF04F4005FEA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0816A9620CF052F005FEA21 /* Location+CoreDataProperties.swift in Sources */,
+				D0816A9520CF052F005FEA21 /* Location+CoreDataClass.swift in Sources */,
+				D0816A9420CF0522005FEA21 /* WristyLocation.xcdatamodeld in Sources */,
+				D0816A9320CF050C005FEA21 /* SwiftCoreDataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0816A6C20CF0489005FEA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0816A6820CF0489005FEA21 /* WristyLocation WatchKit App Extension */;
+			targetProxy = D0816A6B20CF0489005FEA21 /* PBXContainerItemProxy */;
+		};
+		D0816A7620CF048A005FEA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0816A5C20CF0487005FEA21 /* WristyLocation WatchKit App */;
+			targetProxy = D0816A7520CF048A005FEA21 /* PBXContainerItemProxy */;
+		};
+		D0816A8B20CF04F4005FEA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0816A8420CF04F4005FEA21 /* WatchProxy */;
+			targetProxy = D0816A8A20CF04F4005FEA21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D034E2F020CA8FB700E80D68 /* Main.storyboard */ = {
@@ -188,6 +469,14 @@
 				D034E2F920CA8FBA00E80D68 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0816A5F20CF0487005FEA21 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0816A6020CF0487005FEA21 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -310,6 +599,7 @@
 		D034E2FF20CA8FBA00E80D68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WristyLocation/WristyLocation.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -331,6 +621,7 @@
 		D034E30020CA8FBA00E80D68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WristyLocation/WristyLocation.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -346,6 +637,148 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0816A7820CF048A005FEA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				IBSC_MODULE = WristyLocation_WatchKit_App_Extension;
+				INFOPLIST_FILE = "WristyLocation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D0816A7920CF048A005FEA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				IBSC_MODULE = WristyLocation_WatchKit_App_Extension;
+				INFOPLIST_FILE = "WristyLocation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D0816A7A20CF048A005FEA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WristyLocation WatchKit App Extension/WristyLocation WatchKit App Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				INFOPLIST_FILE = "WristyLocation WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D0816A7B20CF048A005FEA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WristyLocation WatchKit App Extension/WristyLocation WatchKit App Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				INFOPLIST_FILE = "WristyLocation WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.kumar.WristyLocation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D0816A8F20CF04F4005FEA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.WatchProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0816A9020CF04F4005FEA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4ZD52YWPC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavan.WatchProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -366,6 +799,33 @@
 			buildConfigurations = (
 				D034E2FF20CA8FBA00E80D68 /* Debug */,
 				D034E30020CA8FBA00E80D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0816A7C20CF048A005FEA21 /* Build configuration list for PBXNativeTarget "WristyLocation WatchKit App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0816A7A20CF048A005FEA21 /* Debug */,
+				D0816A7B20CF048A005FEA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0816A7E20CF048A005FEA21 /* Build configuration list for PBXNativeTarget "WristyLocation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0816A7820CF048A005FEA21 /* Debug */,
+				D0816A7920CF048A005FEA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0816A8E20CF04F4005FEA21 /* Build configuration list for PBXNativeTarget "WatchProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0816A8F20CF04F4005FEA21 /* Debug */,
+				D0816A9020CF04F4005FEA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
